@@ -1,6 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        postIncrement();
+        //postIncrement();
+        ternary();
+
     }
 
     public static void postIncrement() {
@@ -12,5 +14,11 @@ public class Main {
         } else {
             System.out.println(num1 + " Hello Universel");
         }
+    }
+
+    public static void ternary() {
+        int x = 5;
+
+        System.out.println(x>2 ? x <4 ? 10 : 8 : 7 );
     }
 }

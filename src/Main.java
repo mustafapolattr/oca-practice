@@ -2,7 +2,8 @@ public class Main {
     public static void main(String[] args) {
         //postIncrement();
         //ternary();
-        switchCase();
+        //switchCase();
+        stringManipulation();
 
     }
 
@@ -36,4 +37,28 @@ public class Main {
         }
     }
 
+    public static void stringManipulation() {
+        String str1 = "Java";
+        String str2 = new String("java");
+
+        // 1. şık
+        // str1.toLowerCase() // str1'e atama olmadığı için str1 kalıcı olarak değişmez
+        // if (str1==str2)
+
+        // 2. şık
+        // str1.toLowerCase()
+        // if (str1.equals(str1.toLowerCase()))
+
+        // 3. şık
+        // if (str1.toLowerCase == str2.toLowerCase())
+
+        // true choice
+        if (str2.equals(str1.toLowerCase()))
+        {
+            System.out.println("Equal");
+        }else {
+            System.out.println("Not Equal");
+        }
+
+    }
 }

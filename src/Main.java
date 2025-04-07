@@ -1,7 +1,8 @@
 public class Main {
     public static void main(String[] args) {
         //postIncrement();
-        ternary();
+        //ternary();
+        switchCase();
 
     }
 
@@ -21,4 +22,18 @@ public class Main {
 
         System.out.println(x>2 ? x <4 ? 10 : 8 : 7 );
     }
+
+    public static void switchCase() {
+        final char a = 'A', d = 'D';
+        char grade  = 'B';
+
+        switch (grade) {
+            case a :
+            case 'B' : System.out.println("great");
+            case 'C' : System.out.println("good"); break;
+            case d:
+            case 'F' : System.out.println("not good");
+        }
+    }
+
 }

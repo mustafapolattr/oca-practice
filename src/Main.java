@@ -82,4 +82,15 @@ public class Main {
         //long x = 10;
         //int y = 2 * x;
     }
+
+    //output nedir?
+    // compilte time error verir çünkü a ve b'yi int olarak görüyor.
+    public static void dataCasting2() {
+        byte a = 40, b = 50;
+        //byte sum = (byte) a  + b;
+        //System.out.println(sum);
+    }
+
+
+
 }

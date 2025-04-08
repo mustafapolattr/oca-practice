@@ -4,7 +4,8 @@ public class Main {
         //ternary();
         //switchCase();
         //stringManipulation();
-        stringManipulation2();
+        //stringManipulation2();
+        stringManipulation3();
 
     }
 
@@ -96,6 +97,15 @@ public class Main {
         System.out.println(numbers.substring(1,3));
         System.out.println(numbers.substring(7,7));
         System.out.println(numbers.substring(7));
+    }
+
+    public static void stringManipulation3() {
+        String s = "purr";
+        s.toUpperCase();
+        s.trim();
+        s.substring(1,3);
+        s+=" two";
+        System.out.println(s.length());
     }
 
 }

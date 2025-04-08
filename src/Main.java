@@ -13,9 +13,11 @@ public class Main {
         //stringManipulation();
         //stringManipulation2();
         //stringManipulation3();
-        int value = 9;
-        long result = square(value);
-        System.out.println(result);
+//        int value = 9;
+//        long result = square(value);
+//        System.out.println(result);
+        forExample();
+
     }
 
     public static void postIncrement() {
@@ -115,6 +117,15 @@ public class Main {
         s.substring(1,3);
         s+=" two";
         System.out.println(s.length());
+    }
+
+    // kod çıktısı ne olur
+    // kod sonsuz döngüye girer
+    public static void forExample() {
+        for (int i = 0; i<10; ) {
+            i = i++; // post increment
+            System.out.println(i + "Hello World");
+        }
     }
 
 }

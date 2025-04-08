@@ -128,4 +128,13 @@ public class Main {
         }
     }
 
+    // kod çıktısı ne olur?
+    // String tanım satırından dolayı kod çalışmaz
+    public static void whileLoopExample() {
+        int x = 0;
+        while (x++ < 10) {}
+        //String message = x > 10 ?  "Greater than" : false;
+        //System.out.println(message+","+x);
+    }
+
 }

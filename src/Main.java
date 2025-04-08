@@ -137,4 +137,14 @@ public class Main {
         //System.out.println(message+","+x);
     }
 
+    //çıktı ne olur?
+    //while yazılımı yanlış parantez olmadı hata verir
+    public static void whileLoopExample2() {
+        int x = 1, y=15;
+        //while x < 10
+        y--;
+        x++;
+        System.out.println(x+", "+y);
+    }
+
 }

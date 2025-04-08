@@ -147,4 +147,14 @@ public class Main {
         System.out.println(x+", "+y);
     }
 
+    // çıktısı ne olur?
+    // y do içinde tanımlandığı için while içerisinde görünmez
+    public static void doWhileScopeExample() {
+        int y = 1; // y burda tanımlansa sorun olmazdı
+        do {
+            // int y = 1; orjinalinde burası açık üsteki y tanımı yok
+            System.out.println(y++ + " ");
+        } while (y <= 10);
+    }
+
 }

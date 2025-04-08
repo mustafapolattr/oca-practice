@@ -3,7 +3,8 @@ public class Main {
         //postIncrement();
         //ternary();
         //switchCase();
-        stringManipulation();
+        //stringManipulation();
+
 
     }
 
@@ -70,4 +71,15 @@ public class Main {
 //        if (x==s) System.out.println("Success");
 //        else System.out.println("Failure");
 //    }
+
+    // Calismasi icin ne yapilmali
+    public static void dataCasting1() {
+
+        // 82. satırdaki x integer'a cast edilmeli
+        // 81. satırdaki data türünü shorta çevir
+        // 2*x int'e cast edilmeli
+        // y veri tipi long'a cast edilmeli
+        //long x = 10;
+        //int y = 2 * x;
+    }
 }

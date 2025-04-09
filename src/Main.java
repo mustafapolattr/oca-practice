@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Main {
 
     public static long square(int x) {
@@ -18,7 +20,8 @@ public class Main {
 //        System.out.println(result);
         //forExample();
         //arraysExample();
-        arraysExample2();
+        //arraysExample2();
+        binarySearch();
 
     }
 
@@ -167,11 +170,19 @@ public class Main {
     }
 
     public static void arraysExample2() {
-        int arr1[] = {1,2,053, 4};
+        int arr1[] = {1,2,053, 4}; // javada bir sayı 0 ile başlıyorsa 8lik tabanda olur
         int arr2[][] = {{1,2,4}, {2,2,1}, {0,43,2}};
 
         System.out.println(arr1[3]==arr2[0][2]);
         System.out.println(" " + (arr1[2]==arr2[2][1]));
+    }
+
+    public static void binarySearch() {
+        int[] random = {16, -41, 112, 10, -110};
+
+        int x = 10;
+        int y = Arrays.binarySearch(random, x);
+        System.out.print(y);
     }
 
 }

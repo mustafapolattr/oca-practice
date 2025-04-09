@@ -17,7 +17,8 @@ public class Main {
 //        long result = square(value);
 //        System.out.println(result);
         //forExample();
-        arraysExample();
+        //arraysExample();
+        arraysExample2();
 
     }
 
@@ -163,6 +164,14 @@ public class Main {
         // Buraya ne eklenirse kod çalışır.
         int length = c.length;
         System.out.println(length);
+    }
+
+    public static void arraysExample2() {
+        int arr1[] = {1,2,053, 4};
+        int arr2[][] = {{1,2,4}, {2,2,1}, {0,43,2}};
+
+        System.out.println(arr1[3]==arr2[0][2]);
+        System.out.println(" " + (arr1[2]==arr2[2][1]));
     }
 
 }

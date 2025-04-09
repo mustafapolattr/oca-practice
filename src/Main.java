@@ -16,7 +16,8 @@ public class Main {
 //        int value = 9;
 //        long result = square(value);
 //        System.out.println(result);
-        forExample();
+        //forExample();
+        arraysExample();
 
     }
 
@@ -155,6 +156,13 @@ public class Main {
             // int y = 1; orjinalinde burası açık üsteki y tanımı yok
             System.out.println(y++ + " ");
         } while (y <= 10);
+    }
+
+    public static void arraysExample() {
+        char[]c = new char[2];
+        // Buraya ne eklenirse kod çalışır.
+        int length = c.length;
+        System.out.println(length);
     }
 
 }

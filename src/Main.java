@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Main {
@@ -21,7 +22,8 @@ public class Main {
         //forExample();
         //arraysExample();
         //arraysExample2();
-        binarySearch();
+        //binarySearch();
+        listExample();
 
     }
 
@@ -183,6 +185,17 @@ public class Main {
         int x = 10;
         int y = Arrays.binarySearch(random, x);
         System.out.print(y);
+    }
+
+    public static void listExample() {
+        ArrayList<Integer> values = new ArrayList<>();
+        values.add(4);
+        values.add(5);
+        values.set(1, 6);
+        values.remove(0);
+        for (int i = 0; i < values.size(); i++) {
+            System.out.print(values.get(i));
+        }
     }
 
 }

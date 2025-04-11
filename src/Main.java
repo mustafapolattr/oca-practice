@@ -1,3 +1,4 @@
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -26,7 +27,8 @@ public class Main {
         //arraysExample2();
         //binarySearch();
         //listExample();
-        listExample2();
+        //listExample2();
+        listExample3();
 
     }
 
@@ -206,6 +208,14 @@ public class Main {
         Collections.sort(list);
         Integer array[] = list.toArray(new Integer[5]);
         System.out.println(array[0]);
+    }
+
+    // names.asList() satırından dolayı hata oluşur. Arrays.asList(names) iş yapar
+    public static void listExample3() {
+        String [] names = {"Tom", "Dick", "Hatty"};
+        //List<String> list = names.asList();
+        //list.set(0, "Sue");
+        System.out.println(names[0]);
     }
 
 }

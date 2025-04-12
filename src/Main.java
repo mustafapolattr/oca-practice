@@ -28,7 +28,8 @@ public class Main {
         //binarySearch();
         //listExample();
         //listExample2();
-        listExample3();
+        //listExample3();
+        whileExample2();
 
     }
 
@@ -216,6 +217,22 @@ public class Main {
         //List<String> list = names.asList();
         //list.set(0, "Sue");
         System.out.println(names[0]);
+    }
+
+    public static void whileExample2() {
+        boolean keepGoing = true;
+        int count = 0;
+        int x = 3;
+        int sayac = 1;
+        while(count++ < 3) {
+            int y = (1 + 2 * count) % 3;
+            switch (y) {
+                default:
+                case 0: x -= 1; break;
+                case 1: x += 5;
+            }
+        }
+        System.out.println(x);
     }
 
 }
